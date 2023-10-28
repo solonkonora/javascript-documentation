@@ -4,7 +4,6 @@ body {
 }
 
 #navigation {
-  /* position: fixed; */
   top: 0;
   left: 0;
   width: 22%;
@@ -50,5 +49,22 @@ td {
 
 .nav-link:hover {
   cursor: pointer;
+}
+
+.main-body {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+section article {
+  color: #4d4e53;
+  margin: 15px;
+  font-size: 0.96em;
+}
+
+section li {
+  margin: 15px 0px 0px 20px;
 }
   
