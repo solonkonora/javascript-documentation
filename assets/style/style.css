@@ -3,8 +3,8 @@ body {
   padding: 0;
   min-width: 290px;
   color: #4d4e53;
-  background-color: #ffffff;
-  font-family: 'Open Sans', Arial, sans-serif;
+  background-color: #fff;
+  font-family: "Open Sans", Arial, sans-serif;
   line-height: 1.5;
   display: flex;
   flex-direction: column;
@@ -22,11 +22,25 @@ body {
   overflow-y: auto; /* Enable scrolling when content exceeds the container's height */
 }
 
-#header {
+#header,
+#header1,
+#header2,
+#header3,
+#header4,
+#header5,
+#header6,
+#header7,
+#header8,
+#header9,
+#header10,
+#header11,
+#header12,
+#header13,
+#header14 {
   position: sticky;
   top: 0;
   color: #010101;
-  background-color: #ffffff;
+  background-color: #fff;
   padding: 10px;
   font-size: 28px;
   text-align: left;
@@ -69,7 +83,7 @@ section article {
 }
 
 section li {
-  margin: 15px 0px 0px 20px;
+  margin: 15px 0 0 20px;
 }
 
 code {
