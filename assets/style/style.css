@@ -1,9 +1,17 @@
 body {
   margin: 0;
   padding: 0;
+  min-width: 290px;
+  color: #4d4e53;
+  background-color: #ffffff;
+  font-family: 'Open Sans', Arial, sans-serif;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
 }
 
 #navigation {
+  position: fixed;
   top: 0;
   left: 0;
   width: 22%;
@@ -67,4 +75,73 @@ section article {
 section li {
   margin: 15px 0px 0px 20px;
 }
+
+code {
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 2;
+  background-color: #f7f7f7;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  body {
+    margin: 0;
+    padding: 0;
+    /* min-width: 290px;
+    color: #4d4e53;
+    background-color: #ffffff;
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.5; */
+    display: flex;
+    flex-direction: rows;
+  }
+
+  #navigation table {
+    border: 1px solid;
+    height: 207px;
+  }
+
+  #navigation {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 275px;
+    border: none;
+    z-index: 1;
+    border-bottom: 2px solid;
+  }
+
+  #main-body {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 270px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  #main-body {
+    margin-left: -10px;
+  }
+
+  code {
+    margin-left: -20px;
+    width: 100%;
+    padding: 15px;
+    padding-left: 10px;
+    padding-right: 45px;
+    min-width: 233px;
+  }
+}
+
   
