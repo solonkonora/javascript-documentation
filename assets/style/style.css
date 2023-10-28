@@ -15,12 +15,11 @@ body {
   top: 0;
   left: 0;
   width: 22%;
-  height: 100%;
-  color: #fff;
+  min-height: 100vh;
   font-size: 20px;
   text-align: start;
   border-right: 3px solid #949292;
-  z-index: 999; /* Ensure the header appears above other elements */
+  overflow-y: auto; /* Enable scrolling when content exceeds the container's height */
 }
 
 #header {
@@ -32,6 +31,16 @@ body {
   font-size: 28px;
   text-align: left;
   padding-left: 22px;
+  z-index: 3;
+}
+
+#main_head {
+  position: sticky;
+  width: auto;
+  margin: auto;
+  text-align: center;
+  font-size: 28px;
+  color: #000;
 }
 
 #main-thing {
@@ -40,9 +49,11 @@ body {
   overflow-y: scroll;
 }
 
-table {
+#navigation table {
   width: 100%;
   border-collapse: collapse;
+  overflow-y: auto; /* Enable scrolling when content exceeds the container's height */
+  position: absolute;
 }
 
 td {
@@ -92,42 +103,24 @@ code {
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-  body {
-    margin: 0;
-    padding: 0;
-    /* min-width: 290px;
-    color: #4d4e53;
-    background-color: #ffffff;
-    font-family: 'Open Sans', Arial, sans-serif;
-    line-height: 1.5; */
-    display: flex;
-    flex-direction: rows;
-  }
+  /* .main-body {
+    position: absolute;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 110px;
+}
 
   #navigation table {
     border: 1px solid;
     height: 207px;
   }
 
-  #navigation {
-    background-color: white;
-    position: absolute;
-    top: 0;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    max-height: 275px;
-    border: none;
-    z-index: 1;
-    border-bottom: 2px solid;
-  }
-
   #main-body {
     position: relative;
     margin-left: 0px;
     margin-top: 270px;
-  }
-}
+  }*/
+} 
 
 @media only screen and (max-width: 425px) {
   #main-body {
