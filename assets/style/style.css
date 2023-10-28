@@ -34,21 +34,6 @@ body {
   z-index: 3;
 }
 
-#main_head {
-  position: sticky;
-  width: auto;
-  margin: auto;
-  text-align: center;
-  font-size: 28px;
-  color: #000;
-}
-
-#main-thing {
-  margin-top: 60px; /* Adjust this value to match the height of your header */
-  height: calc(100vh - 60px); /* Adjust this value to account for the header height */
-  overflow-y: scroll;
-}
-
 #navigation table {
   width: 100%;
   border-collapse: collapse;
@@ -101,27 +86,6 @@ code {
   border-radius: 5px;
 }
 
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  /* .main-body {
-    position: absolute;
-    margin: auto;
-    padding: 20px;
-    margin-bottom: 110px;
-}
-
-  #navigation table {
-    border: 1px solid;
-    height: 207px;
-  }
-
-  #main-body {
-    position: relative;
-    margin-left: 0px;
-    margin-top: 270px;
-  }*/
-} 
-
 @media only screen and (max-width: 425px) {
   #main-body {
     margin-left: -10px;
@@ -136,5 +100,3 @@ code {
     min-width: 233px;
   }
 }
-
-  
