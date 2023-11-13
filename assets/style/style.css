@@ -22,7 +22,18 @@ body {
   overflow-y: auto; /* Enable scrolling when content exceeds the container's height */
 }
 
-#header,
+#header {
+  position: sticky;
+  top: 0;
+  color: #010101;
+  background-color: #fff;
+  padding: 10px;
+  font-size: 28px;
+  text-align: left;
+  padding-left: 22px;
+  z-index: 3;
+}
+
 #header1,
 #header2,
 #header3,
@@ -37,7 +48,6 @@ body {
 #header12,
 #header13,
 #header14 {
-  position: sticky;
   top: 0;
   color: #010101;
   background-color: #fff;
