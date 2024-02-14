@@ -1,7 +1,7 @@
 body {
   color: #4d4e53;
   background-color: #ffffff;
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   line-height: 1.5;
   margin: 0;
   padding: 0;
@@ -84,28 +84,6 @@ code {
   border-radius: 5px;
 }
 
-
-
-
-
-
-
-/* Styles for screens smaller than 600px */
-/* @media screen and (max-width: 600px) {
-  body {
-    font-size: 14px;
-  }
-
-  header {
-    font-size: 1.8em;
-  }
-
-  #main-doc {
-    margin-left: 310px;
-    margin-right: 20px;
-  }
-} */
-
 /* Styles for screens smaller than 400px */
 @media screen and (max-width: 600px) {
   body {
@@ -115,16 +93,15 @@ code {
 
   #navbar {
     width: 110px;
-}
+  }
 
-    #navbar a {
-      padding: 5px;
-    }
+  #navbar a {
+    padding: 5px;
+  }
 
-    header {
-        font-size: 10px;
-        /* position: fixed; */
-    }
+  header {
+    font-size: 10px;
+  }
 
   #main-doc {
     margin-left: 110px;
@@ -138,7 +115,7 @@ code {
 
   section li {
     margin: 9px 0px 0px px;
-}
+  }
 
   code {
     font-size: 6px;

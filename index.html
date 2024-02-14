@@ -12,36 +12,36 @@
     <ul>
       <li><a class="nav-link" href="#Introduction">Introduction</a></li>
       <li>
-        <a class="nav-link" href="#What_you_should_already_know"
+        <a class="nav-link" href="#What-you-should-already-know"
           >What you should already know</a
         >
       </li>
       <li>
-        <a class="nav-link" href="#JavaScript_and_Java"
+        <a class="nav-link" href="#JavaScript-and-Java"
           >JavaScript and Java</a
         >
       </li>
-      <li><a class="nav-link" href="#Hello_world">Hello world</a></li>
+      <li><a class="nav-link" href="#Hello-world">Hello world</a></li>
       <li><a class="nav-link" href="#Variables">Variables</a></li>
       <li>
-        <a class="nav-link" href="#Declaring_variables"
+        <a class="nav-link" href="#Declaring-variables"
           >Declaring variables</a
         >
       </li>
-      <li><a class="nav-link" href="#Variable_scope">Variable scope</a></li>
+      <li><a class="nav-link" href="#Variable-scope">Variable scope</a></li>
       <li>
-        <a class="nav-link" href="#Global_variables">Global variables</a>
+        <a class="nav-link" href="#Global-variables">Global variables</a>
       </li>
       <li><a class="nav-link" href="#Constants">Constants</a></li>
-      <li><a class="nav-link" href="#Data_types">Data types</a></li>
+      <li><a class="nav-link" href="#Data-types">Data types</a></li>
       <li>
-        <a class="nav-link" href="#if...else_statement"
+        <a class="nav-link" href="#if...else-statement"
           >if...else statement</a
         >
       </li>
-      <li><a class="nav-link" href="#while_statement">while statement</a></li>
+      <li><a class="nav-link" href="#while-statement">while statement</a></li>
       <li>
-        <a class="nav-link" href="#Function_declarations"
+        <a class="nav-link" href="#Function-declarations"
           >Function declarations</a
         >
       </li>
@@ -49,7 +49,7 @@
     </ul>
   </nav>
   <main id="main-doc">
-    <section class="main-section" id="Introduction">
+    <section class="main-section" id="introduction">
       <header>Introduction</header>
       <article>
         <p>
@@ -86,7 +86,7 @@
         </ul>
       </article>
     </section>
-    <section class="main-section" id="What_you_should_already_know">
+    <section class="main-section" id="what-you-should-already-know">
       <header>What you should already know</header>
       <article>
         <p>This guide assumes you have the following basic background:</p>
@@ -104,7 +104,7 @@
         </ul>
       </article>
     </section>
-    <section class="main-section" id="JavaScript_and_Java">
+    <section class="main-section" id="javaScript-and-java">
       <header>JavaScript and Java</header>
       <article>
         <p>
@@ -136,7 +136,7 @@
         </p>
       </article>
     </section>
-    <section class="main-section" id="Hello_world">
+    <section class="main-section" id="hello-world">
       <header>Hello world</header>
       <article>
         To get started with writing JavaScript, open the Scratchpad and write
@@ -150,14 +150,14 @@
         browser!
       </article>
     </section>
-    <section class="main-section" id="Variables">
+    <section class="main-section" id="variables">
       <header>Variables</header>
       <p>
         You use variables as symbolic names for values in your application.
         The names of variables, called identifiers, conform to certain rules.
       </p>
       <p>
-        A JavaScript identifier must start with a letter, underscore (_), or
+        A JavaScript identifier must start with a letter, underscore (-), or
         dollar sign ($); subsequent characters can also be digits (0-9).
         Because JavaScript is case sensitive, letters include the characters
         "A" through "Z" (uppercase) and the characters "a" through "z"
@@ -167,10 +167,10 @@
         You can use ISO 8859-1 or Unicode letters such as å and ü in
         identifiers. You can also use the Unicode escape sequences as
         characters in identifiers. Some examples of legal names are
-        Number_hits, temp99, and _name.
+        Number-hits, temp99, and -name.
       </p>
     </section>
-    <section class="main-section" id="Declaring_variables">
+    <section class="main-section" id="declaring-variables">
       <header>Declaring variables</header>
       <article>
         You can declare a variable in three ways:
@@ -191,7 +191,7 @@
         </p>
       </article>
     </section>
-    <section class="main-section" id="Variable_scope">
+    <section class="main-section" id="variable-scope">
       <header>Variable scope</header>
       <article>
         <p>
@@ -222,7 +222,7 @@
         >
       </article>
     </section>
-    <section class="main-section" id="Global_variables">
+    <section class="main-section" id="global-variables">
       <header>Global variables</header>
       <article>
         <p>
@@ -240,7 +240,7 @@
         </p>
       </article>
     </section>
-    <section class="main-section" id="Constants">
+    <section class="main-section" id="constants">
       <header>Constants</header>
       <article>
         <p>
@@ -275,12 +275,12 @@
         However, object attributes are not protected, so the following
         statement is executed without problems.
         <code
-          >const MY_OBJECT = {"key": "value"}; MY_OBJECT.key =
+          >const MY-OBJECT = {"key": "value"}; MY-OBJECT.key =
           "otherValue";</code
         >
       </article>
     </section>
-    <section class="main-section" id="Data_types">
+    <section class="main-section" id="data-types">
       <header>Data types</header>
       <article>
         <p>The latest ECMAScript standard defines seven data types:</p>
@@ -315,14 +315,14 @@
         procedures that your application can perform.
       </article>
     </section>
-    <section class="main-section" id="if...else_statement">
+    <section class="main-section" id="if-else-statement">
       <header>if...else statement</header>
       <article>
         Use the if statement to execute a statement if a logical condition is
         true. Use the optional else clause to execute a statement if the
         condition is false. An if statement looks as follows:
 
-        <code>if (condition) { statement_1; } else { statement_2; }</code>
+        <code>if (condition) { statement-1; } else { statement-2; }</code>
         condition can be any expression that evaluates to true or false. See
         Boolean for an explanation of what evaluates to true and false. If
         condition evaluates to true, statement_1 is executed; otherwise,
@@ -359,7 +359,7 @@
         <code>if ((x = y)) { /* statements here */ }</code>
       </article>
     </section>
-    <section class="main-section" id="while_statement">
+    <section class="main-section" id="while-statement">
       <header>while statement</header>
       <article>
         A while statement executes its statements as long as a specified
@@ -404,7 +404,7 @@
         </p>
       </article>
     </section>
-    <section class="main-section" id="Function_declarations">
+    <section class="main-section" id="function-declarations">
       <header>Function declarations</header>
       <article>
         A function definition (also called a function declaration, or function
@@ -442,14 +442,14 @@
         </p>
       </article>
     </section>
-    <section class="main-section" id="Reference">
+    <section class="main-section" id="reference">
       <header>Reference</header>
       <article>
         <ul>
           <li>
             All the documentation in this page is taken from
             <a
-              href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+              href="#"
               target="_blank"
               >MDN</a
             >
